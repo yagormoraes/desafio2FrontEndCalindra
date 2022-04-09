@@ -1,0 +1,105 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.sectionLogo{
+    display: flex;
+    width: max-content;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.sectionText{
+    padding: 20px;
+    font-size: x-large;
+    color: #846219;
+}
+
+
+.menuMobile{
+    display: none;
+}
+
+.navMenu{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    color: #846219;
+}
+
+.navList{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem{
+    padding: 8%;
+    width: max-content;
+}
+
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    transition: 1s;
+}
+
+a:hover{
+    color:yellow
+}
+
+@media (max-width:590px){
+    header{
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .sectionText{
+        display: none;
+    }
+
+    .sectionLogo{
+        width: 100%;
+    }
+
+
+    .menuMobile{
+        display: flex;
+        justify-content: start;
+        width: 40%;
+        color: #E2E0B8;
+
+    }
+
+
+    .logoDiv{
+        display: flex;
+        justify-content: start;
+        width: 60%;
+        padding-left: 7%;
+    }
+
+    .navegationList{
+        display: none;
+        flex-flow: column nowrap;
+        background-color: gray;
+        position:fixed;
+        top:0;
+        left: 0;
+        height: 100vh;
+        width: 300px;
+        padding-top: 3.5rem;
+    }
+
+}
