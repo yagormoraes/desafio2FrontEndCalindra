@@ -61,8 +61,35 @@ a:hover{
 }
 
 @media (max-width:590px){
+
+    .sectionLogo{
+        width: 100%;
+
+    }
+
+
+    
     .mobileBtn{
-        display: block;
+        display: flex;
+        justify-content: start;
+        border: none;
+        background-color: transparent;
+        cursor: pointer
+
+    }
+
+    .mobileBtn img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .logoDiv{
+
+        padding-left: 37%;
+    }
+
+    .sectionText{
+        display: none;
     }
 
     .navMenu{
