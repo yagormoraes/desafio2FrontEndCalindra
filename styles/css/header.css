@@ -60,15 +60,13 @@ a:hover{
     color:yellow
 }
 
-@media (max-width:590px){
+@media(max-width:1000px){
 
     .sectionLogo{
         width: 100%;
 
     }
 
-
-    
     .mobileBtn{
         display: flex;
         justify-content: start;
@@ -81,11 +79,6 @@ a:hover{
     .mobileBtn img{
         width: 40px;
         height: 40px;
-    }
-
-    .logoDiv{
-
-        padding-left: 37%;
     }
 
     .sectionText{
@@ -119,6 +112,27 @@ a:hover{
         display: none;
         visibility: visible;
     }
+
+    .logoDiv{
+
+        padding-left: 45%;
+    }
+
+    
+
+}
+
+@media (max-width:456px){
+
+
+    .logoDiv{
+
+        padding-left: 34%;
+    }
+
+    
+
+    
 
 
 
