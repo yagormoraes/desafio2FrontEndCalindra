@@ -10,4 +10,4 @@ Além do layout para desktop, deve responder também para ambiente mobile.
 
 
 ## Link da pagina:
-Para ter acesso a pagina: https://yagormorares.github.io/desafio2FronEndCalindra/src/html/index.html
+Para ter acesso a pagina: https://yagormorares.github.io/desafio2FrontEndCalindra/src/html/index.html
